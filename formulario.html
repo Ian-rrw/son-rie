@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Son-rie</title>
+    <link rel="stylesheet" href="css/basico.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap</title>
+    <!-- Bootstrap: CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+
+<body class="p-3 mb-2 bg-info text-dark">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 mb-2 bg-dark-subtle text-dark-emphasis">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link activo" href="contactos.html">Contactos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="formulario.html">Entrega por formulario <span
+                                class="badge text-bg-secondary">beta</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Quejas.html">Servicio a clientes <span
+                                class="badge text-bg-secondary">beta</span></a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="contenido" class="alert alert-primary mt-3">
+        <h1>Entrega por formulario</h1>
+        <form>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+                <label for="formFile" class="form-label">Referencia</label>
+                <input class="form-control" type="file" id="formFile">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Tema del pedido</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Tamaño </label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>sin especificar</option>
+                    <option value="1">chico (5 a 10 cm)</option>
+                    <option value="2">mediano (10 a 15 cm)</option>
+                    <option value="3">grande (20 a 30 cm)</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">detalles del pedido</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <div class="mb-3">
+            </div>
+                <label for="exampleFormControlTextarea1" class="form-label">direccion</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1">
+            </div>
+                <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+
+
+        </form>
+    </div>
+    <!-- Bootstrap: Sección JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html
